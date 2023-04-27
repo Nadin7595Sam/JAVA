@@ -1,7 +1,7 @@
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class task2_0 {
+public class task0 {
     public static void main(String[] args) {
         String stones = "aaaAbbbB";
         Pattern pattern1 = Pattern.compile("a");
