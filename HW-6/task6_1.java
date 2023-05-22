@@ -18,9 +18,9 @@ public class task6_1 {
     public static void main(String[] args) {
         // Создаем множество ноутбуков
         Set<Laptop> laptops = new HashSet<>();
-        laptops.add(new Laptop("Huawei", 256, "Black", 50000));
-        laptops.add(new Laptop("HP", 512, "Silver", 60000));
-        laptops.add(new Laptop("Lenovo", 512, "Black", 55000));
+        laptops.add(new Laptop("Huawei", 256, "Черный", 50000));
+        laptops.add(new Laptop("HP", 512, "Серый", 60000));
+        laptops.add(new Laptop("Lenovo", 512, "Черный", 55000));
 
         // Запрашиваем у пользователя критерии фильтрации
         Scanner scanner = new Scanner(System.in);
